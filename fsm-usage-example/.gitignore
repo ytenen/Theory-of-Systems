@@ -1,0 +1,79 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python/
+
+# Дистрибутивы и упаковка
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Файлы установщиков
+*.pip
+*.egg
+*.whl
+
+# Логи
+*.log
+*.log.*
+logs/
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE (настройки редакторов)
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Тесты и покрытие
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.coverage.*
+*.cover
+.hypothesis/
+
+.ipynb_checkpoints
+*.ipynb
+
+# Файлы окружения и секреты
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Временные и бэкап файлы
+*.bak
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+*.drawio
+*.drawio.bkp
+*.bkp
+
+# Файлы с точкой в начале
+.*.bkp
+.*.swp
