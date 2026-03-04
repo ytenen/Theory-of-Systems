@@ -1,6 +1,3 @@
-import inspect
-
-
 class Application:
     def __init__(self, start_state):
         self.current_state = start_state

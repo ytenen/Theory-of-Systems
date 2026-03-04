@@ -1,2 +1,6 @@
-from State import State
-from Event import Event
+"""Entity enums module"""
+
+from .Event import Event
+from .State import State
+
+__all__ = ["Event", "State"]
