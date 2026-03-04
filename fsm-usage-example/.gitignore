@@ -70,7 +70,6 @@ htmlcov/
 *.swp
 *.swo
 
-*.drawio
 *.drawio.bkp
 *.bkp
 
