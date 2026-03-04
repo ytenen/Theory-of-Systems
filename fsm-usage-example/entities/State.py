@@ -4,8 +4,8 @@ class State:
         self.is_terminal = is_terminal
         self.transitions = {}
 
-    def add_transition(self, action, state):
-        self.transitions[action] = state
+    def add_transition(self, event, state):
+        self.transitions[event] = state
 
     def make_terminal(self):
         self.is_terminal = True
